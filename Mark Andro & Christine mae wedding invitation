@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mark & Christine | Wedding Invitation</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: #f5f1e8;
+      color: #3d4a3d;
+      text-align: center;
+      line-height: 1.7;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      background: linear-gradient(
+        rgba(245, 241, 232, 0.88),
+        rgba(245, 241, 232, 0.92)
+      );
+    }
+
+    .card {
+      max-width: 750px;
+      width: 100%;
+      padding: 50px 25px;
+      border: 1px solid #c8c2ae;
+      background: rgba(255, 255, 255, 0.75);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    .small-title {
+      font-size: 14px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: normal;
+      margin-bottom: 10px;
+    }
+
+    .and {
+      font-size: 24px;
+      font-style: italic;
+      margin: 5px 0;
+    }
+
+    .names {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    .intro {
+      max-width: 600px;
+      margin: 0 auto 30px;
+      font-size: 17px;
+    }
+
+    .date {
+      font-size: 24px;
+      margin: 25px 0 5px;
+      letter-spacing: 2px;
+    }
+
+    .time {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .details {
+      margin: 30px auto;
+      max-width: 500px;
+      padding: 25px;
+      border-top: 1px solid #c8c2ae;
+      border-bottom: 1px solid #c8c2ae;
+    }
+
+    .details h2 {
+      font-size: 20px;
+      font-weight: normal;
+      margin-bottom: 10px;
+    }
+
+    .verse {
+      font-style: italic;
+      margin: 30px auto;
+      max-width: 600px;
+      font-size: 17px;
+    }
+
+    .rsvp-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 35px;
+      background: #596b59;
+      color: white;
+      text-decoration: none;
+      letter-spacing: 2px;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .rsvp-button:hover {
+      opacity: 0.8;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      font-style: italic;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 36px;
+      }
+
+      .names {
+        font-size: 28px;
+      }
+
+      .intro {
+        font-size: 15px;
+      }
+
+      .card {
+        padding: 40px 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="card">
+
+      <div class="small-title">
+        We Are Getting Married
+      </div>
+
+      <h1>Mark Andro</h1>
+
+      <div class="and">&</div>
+
+      <div class="names">
+        Christine Mae
+      </div>
+
+      <p class="intro">
+        With joyful hearts and gratefulness to God,
+        we invite you to celebrate with us as we begin
+        a beautiful new chapter together.
+      </p>
+
+      <p class="intro">
+        Two hearts, one love, and a lifetime together—
+        under God's perfect plan.
+      </p>
+
+      <div class="date">
+        April 27, 2027
+      </div>
+
+      <div class="time">
+        3:00 PM
+      </div>
+
+      <div class="details">
+
+        <h2>Wedding Ceremony</h2>
+        <p>Cagayan de Oro</p>
+
+        <br>
+
+        <h2>Reception</h2>
+        <p>Hiraya</p>
+
+      </div>
+
+      <div class="verse">
+        "What therefore God has joined together,
+        let not man separate."
+        <br>
+        <strong>— Mark 10:9</strong>
+      </div>
+
+      <a href="#" class="rsvp-button">
+        RSVP NOW
+      </a>
+
+      <footer>
+        We can't wait to celebrate this special day with you.
+      </footer>
+
+    </div>
+  </section>
+
+</body>
+</html>
