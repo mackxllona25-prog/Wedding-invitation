@@ -147,7 +147,7 @@ display:none;
 
 @keyframes fadeUp{
     from{
-        opacity:0;
+        opacity:1;
         transform:translateY(40px);
     }
 
@@ -169,7 +169,7 @@ display:none;
 
 /* Section Animation */
 section{
-    opacity:0;
+    opacity:1;
     transform:translateY(50px);
     transition:1s;
 }
